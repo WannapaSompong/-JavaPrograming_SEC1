@@ -2,4 +2,4 @@ Student_id : 2313110773
 Student Name : Wannapa Sompong
 Major : IT
 Level : 1
-Faculty : IT
+Faculty : Information Technology
