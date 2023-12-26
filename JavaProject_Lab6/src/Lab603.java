@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public final class Lab603 {
 	static Scanner scan = new Scanner(System.in);
-	static String fullName;
 
 	public static void main(String[] args) {
 		System.out.print("Please enter your name, separated by space. : ");
@@ -9,15 +8,17 @@ public final class Lab603 {
 		abbreviatName(fullname);
 	
 	}
-	public static String abbreviatName(String fullname) {
+	public static String abbreviatName(String name) {
+		String firstName,lastName,secondName;
 		
-		int space=fullname.indexOf(' ');
-		String  name= fullname.charAt(0)+".";
-		name = name+fullname.charAt(space+1)+".";
-		int last = fullname.indexOf(' ',space+1);
-		name = name+fullname.substring(last+1);
-		System.out.print(name);
-		return name;
+		int space=name.indexOf(' ');
+		firstName = name;
+		secondName =name.charAt(space+1);
+		int last = name.indexOf(' ',space+1);
+		lastName = name.substring(last+1);
+		System.out.print(secondName+"."+lastName+"."+firstName);
+		
+		
 	}
 
 }
