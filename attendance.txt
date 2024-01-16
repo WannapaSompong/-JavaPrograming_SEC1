@@ -1,4 +1,4 @@
 Id : 2313110773
 Name-Surname : Wannapa Sompong
-Date : JAN-09-2024 
-Topic : Class and Object
+Date : JAN-16-2024 
+Topic : Encapsulation Concept
